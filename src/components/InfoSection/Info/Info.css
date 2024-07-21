@@ -1,0 +1,9 @@
+.Info h3, .Info p {
+    color: var(--color-white);
+}
+
+@media (min-width: 1024px) {
+    .Info h3 {
+        font-size: var(--h4);
+    }
+}

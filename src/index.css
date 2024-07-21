@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap');
+
+:root {
+    --h1: 22px;
+    --h2: 20px;
+    --h3: 18px;
+    --h4: 16px;
+    
+    --p: 14px;
+
+    --icon-size: 24px;
+
+    --gap-xl: 60px;
+    --gap-l: 40px;
+    --gap-m: 20px;
+    --gap-s: 10px;
+    --gap-xs: 8px;
+
+    --img-border-radius: 8px;
+
+    --color-white: #fff;
+    --color-dark: #222;
+    --color-1: #c7c1a1;
+    --color-2: #eee;
+    --link-color: #003366;
+    --link-hover-color: #6699CC;
+
+    --img-max-height: 350px;
+    --parallax-min-height: 600px;
+    --parallax-max-height: 600px;
+    --gallery-img-max-height: 190px;
+
+    --container-width-xl: 1920px;
+    --container-width: 1200px;
+
+    --small-text: 500px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    max-width: var(--container-width-xl);
+    margin: 0 auto;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+strong a {
+    color: var(--link-color);
+    transition: .3s ease-in-out;
+}
+
+strong a:hover {
+    color: var(--link-hover-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Playwrite AU QLD", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-bottom: var(--gap-xs);
+    color: var(--color-dark);
+}
+
+h1 {
+    font-size: var(--h1);
+}
+
+h2 {
+    font-size: var(--h2);
+}
+
+h3 {
+    font-size: var(--h3);
+}
+
+p {
+    font-size: var(--p);
+    color: var(--color-dark);
+}
+
+.container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 0 var(--gap-s);
+}
+
+@media (min-width: 425px) {
+    :root {
+        --h1: 26px;
+        --h2: 24px;
+        --h3: 22px;
+        --h4: 20px;
+        
+        --p: 14px;
+    
+        --icon-size: 26px;
+    
+        --gap-xl: 70px;
+        --gap-l: 50px;
+        --gap-m: 30px;
+        --gap-s: 20px;
+        --gap-xs: 10px;
+    
+        --img-border-radius: 12px;
+    
+        --img-max-height: 500px;
+        --gallery-img-max-height: 240px;
+    }
+}
+
+@media (min-width: 600px) {
+    :root {
+        --h1: 28px;
+        --h2: 26px;
+        --h3: 24px;
+        --h4: 22px;
+        
+        --p: 15px;
+        
+        --gap-xl: 80px;
+        --gap-l: 60px;
+        --gap-m: 40px;
+    
+        --img-max-height: 400px;
+        --gallery-img-max-height: 230px;
+    }
+}
+
+@media (min-width: 660px) {
+    :root {
+        --gallery-img-max-height: 185px;
+    }
+}
+
+@media (min-width: 768px) {
+    :root {
+        --img-max-height: 450px;
+    }
+}
+
+@media (min-width: 1024px) {
+    :root {
+        --gap-xl: 90px;
+        --gap-l: 70px;        
+
+        --icon-size: 24px;
+
+        --img-border-radius: 16px;
+
+        --img-max-height: 600px;
+        --gallery-img-max-height: 195px;
+    }
+}

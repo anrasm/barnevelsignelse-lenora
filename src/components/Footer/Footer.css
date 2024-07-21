@@ -1,0 +1,5 @@
+.Footer {
+    background-color: var(--color-2);
+    text-align: center;
+    padding: var(--gap-l) var(--gap-s);
+}

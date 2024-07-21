@@ -1,0 +1,16 @@
+.ParallaxImgSection {
+    background-image: url('../../img/family-photo-mateo-smiling.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: var(--parallax-min-height);
+    max-height: var(--parallax-max-height);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+@media (min-width: 1024px) {
+    .ParallaxImgSection {
+        background-position: center;
+    }
+}

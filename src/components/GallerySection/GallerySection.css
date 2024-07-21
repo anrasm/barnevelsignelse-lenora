@@ -1,0 +1,19 @@
+.Gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: var(--gap-s);
+    margin-top: var(--gap-l);
+}
+
+.Gallery-item {
+    overflow: hidden;
+}
+
+.Gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: var(--img-border-radius);
+    max-height: var(--gallery-img-max-height);
+    object-fit: cover;
+}
