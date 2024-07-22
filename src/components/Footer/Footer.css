@@ -3,3 +3,7 @@
     text-align: center;
     padding: var(--gap-l) var(--gap-s);
 }
+
+.Footer p {
+    margin-bottom: var(--gap-xs);
+}
