@@ -4,7 +4,6 @@
     background-position: center;
     min-height: var(--parallax-min-height);
     max-height: var(--parallax-max-height);
-    background-attachment: fixed;
     background-repeat: no-repeat;
     width: 100%;
 }
@@ -12,5 +11,17 @@
 @media (min-width: 1024px) {
     .ParallaxImgSection {
         background-position: center;
+    }
+}
+
+@supports (-webkit-touch-callout: none) {
+    .ParallaxImgSection {
+        background-attachment: scroll
+    }
+}
+    
+@supports not (-webkit-touch-callout: none) {
+    .ParallaxImgSection {
+        background-attachment: fixed;
     }
 }
