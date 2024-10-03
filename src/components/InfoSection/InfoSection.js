@@ -1,8 +1,9 @@
 import './InfoSection.css';
 import Info from './Info/Info';
 import { FaCalendar, FaFutbol, FaGift, FaMapMarker } from 'react-icons/fa';
+import React from 'react';
 
-function InfoSection() {
+const InfoSection = React.memo(() => {
   return (
     <div className='InfoSection'>
         <div className='Info-container'>        
@@ -37,6 +38,6 @@ function InfoSection() {
         </div>
     </div>
   );
-}
+});
 
 export default InfoSection;

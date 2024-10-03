@@ -5,6 +5,18 @@
     gap: var(--gap-m);
 }
 
+.image-center {
+    object-position: center;
+}
+
+.image-top {
+    object-position: top;
+}
+
+.image-bottom {
+    object-position: bottom;
+}
+
 .TextImgSection img {
     border-radius: var(--img-border-radius);
     max-height: var(--img-max-height);

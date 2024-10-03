@@ -1,6 +1,13 @@
 .Hero {
     position: relative;
     text-align: center;
+    height: 100vh;
+}
+
+.Hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .Hero-overlay {

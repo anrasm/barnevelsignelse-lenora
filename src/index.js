@@ -43,7 +43,7 @@ root.render(
         <TextImgSection
           imgSrc={lenoraCherryDress}
           imgAlt='Lenora i en kjole med kirsebær på'
-          imgPosition='top'
+          position='top'
         >
           <h2>Lenora Marie Nellie Rasmussen</h2>
           <p>Da vi har fået en dejlig datter, ønsker vi at få hende velsignet og fejre denne begivenhed med vores nærmeste. I inviteres derfor til barnevelsignelse <strong>lørdag d. 2 november 2024</strong>.</p>
