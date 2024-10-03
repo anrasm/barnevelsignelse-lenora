@@ -1,5 +1,5 @@
 .ParallaxImgSection {
-    background-image: url('../../img/family-photo-mateo-smiling.jpg');
+    background-image: url('../../img/family-photo-mateo-smiling.webp');
     background-size: cover;
     background-position: center;
     min-height: var(--parallax-min-height);

@@ -10,15 +10,15 @@ import Footer from './components/Footer/Footer';
 
 // Images
 //TODO: Figure out a better way to do this.
-import heroImg from './img/family-photo-mateo-looking-at-lenora.jpg';
-import lenoraCherryDress from './img/lenora-cherry-dress.jpg';
-import andrewAndTerese from './img/andrew-and-terese.jpg';
-import lenoraOnTheBeach from './img/lenora-on-the-beach.jpg';
-import lenoraFunnyHandGesture from './img/lenora-funny-hand-gesture.jpg';
-import lenoraLayingWithHerKneesUpHigh from './img/lenora-laying-with-her-knees-up-high.jpg';
-import lenoraOnHerBelly from './img/lenora-on-her-belly-hands-folded.jpg';
-import lenoraOnHerBellyHandToHerChin from './img/lenora-on-her-belly-hand-to-her-chin.jpg';
-import lenoraBeigeDress from './img/lenora-beige-dress.jpg';
+import heroImg from './img/family-photo-mateo-looking-at-lenora.webp';
+import lenoraCherryDress from './img/lenora-cherry-dress.webp';
+import andrewAndTerese from './img/andrew-and-terese.webp';
+import lenoraOnTheBeach from './img/lenora-on-the-beach.webp';
+import lenoraFunnyHandGesture from './img/lenora-funny-hand-gesture.webp';
+import lenoraLayingWithHerKneesUpHigh from './img/lenora-laying-with-her-knees-up-high.webp';
+import lenoraOnHerBelly from './img/lenora-on-her-belly-hands-folded.webp';
+import lenoraOnHerBellyHandToHerChin from './img/lenora-on-her-belly-hand-to-her-chin.webp';
+import lenoraBeigeDress from './img/lenora-beige-dress.webp';
 
 const images = [
   lenoraOnTheBeach,
