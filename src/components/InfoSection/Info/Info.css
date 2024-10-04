@@ -1,5 +1,5 @@
 .Info h3, .Info p {
-    color: var(--color-white);
+    color: var(--color-3);
 }
 
 @media (min-width: 1024px) {
