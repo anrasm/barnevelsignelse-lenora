@@ -7,7 +7,7 @@ const TextImgSection = React.memo(({customClass, imgSrc, imgAlt, position='cente
             <div className='TextImgSection-text-container'>
                 {children}
             </div>
-            <img className={`TextImgSection-img image-${position}`} src={imgSrc} alt={imgAlt} loading="lazy"/>
+            <img className={`TextImgSection-img image-${position}`} src={imgSrc} alt={imgAlt} loading='lazy'/>
         </div>
     );
 });

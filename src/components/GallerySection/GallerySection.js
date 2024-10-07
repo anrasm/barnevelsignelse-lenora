@@ -6,7 +6,7 @@ const GallerySection = React.memo(({images}) => {
     <div className='Gallery'>
       {images.map((image, index) => (
         <div className='Gallery-item' key={index}>
-          <img src={image} alt={`Galleri billede ${index + 1}`} loading="lazy"/>
+          <img src={image} alt={`Galleri billede ${index + 1}`} loading='lazy'/>
         </div>
       ))}
     </div>
